@@ -1,19 +1,17 @@
-@font-face { font-family: Outfit; src: url('Outfit-VariableFont_wght.ttf'); } 
+@font-face { font-family: outfit; src: url('Outfit-VariableFont_wght.ttf'); } 
 
 body {
     background-color: hsl(216, 50%, 16%);
-    font-family: Outfit;
+    font-family: outfit;
 }
 
 
 .centercard {
-
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-
     /* Centraliza o card */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -21,8 +19,11 @@ body {
 }
 .card {
     background-color: hsl(215, 32%, 27%);
-    width: 18vw;
-    height: 70vh;
+    
+    width: 350px;
+    min-width: 350px;
+    max-width: 18vw;
+    height: 650px;
     
     /* centraliza os elementos do card */
     border-radius: 15px;
