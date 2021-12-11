@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+
+.centercard {
+
+    width: 100vw;
+    height: 100vh;
+
+    /* Centraliza o card */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 18vw;
+    height: 65vh;
+    
+    /* centraliza os elementos do card */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image-equilibrium {
+    width: 90%;
+    height: 57%;
+    border-radius: 15px;
+    margin-top: 6%;
+ 
+    /* a imagem não distorce */
+    object-fit: cover;
+
+}
