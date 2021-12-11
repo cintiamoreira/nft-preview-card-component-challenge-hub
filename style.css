@@ -1,8 +1,9 @@
-
+@font-face { font-family: Outfit; src: url('Outfit-VariableFont_wght.ttf'); } 
 
 body {
     background-color: hsl(217, 54%, 11%);
     
+    font-family: Outfit;
 }
 
 
@@ -37,8 +38,45 @@ body {
     height: 57%;
     border-radius: 15px;
     margin-top: 6%;
- 
+
     /* a imagem não distorce */
     object-fit: cover;
 
+}
+
+.text-card{
+    width: 90%;
+}
+/* Weights: 300, 400, 600 */
+.titulo-card{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.subtitulo-card{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.price-card {
+    color:hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.days-card{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    text-align: right;
+}
+
+.creator-card{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.creator-name {
+    color: hsl(0, 0%, 100%)
 }
